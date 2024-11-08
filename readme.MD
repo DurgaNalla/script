@@ -8,4 +8,9 @@
  ```
  git add <filename>
  git commit -m "why you commited"
-* push the changes into githiub
+
+* push the changes into 
+git push -u origin main
+```
+git add . ; git commit -m "some-message" ; git push -u origin main
+```
