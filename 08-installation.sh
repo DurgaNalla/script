@@ -4,7 +4,7 @@ USERID=$(id -u)
  
 if [ $USERID -ne 0]
 then
-  echo "youre not a super user"
+  echo "please run this script with root acess"
   exit 1
 else
   echo "youre a super user"
