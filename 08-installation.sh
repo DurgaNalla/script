@@ -4,10 +4,10 @@ USERID=$(id -u)
  
 if [ $USERID -ne 0]
 then
-  echo "your'e not a super user"
+  echo "youre not a super user"
   exit 1
 else
-  echo "your'e a super user"
+  echo "youre a super user"
 fi
  
  dnf install mysql -y
