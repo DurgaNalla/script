@@ -11,3 +11,4 @@ if [$NUMBER -gt 10]
    {
     print $NUMBER is LESSER
    }
+   fi
