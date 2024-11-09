@@ -1,8 +1,8 @@
 #!/bin/bash
 
-USER=$(id -u)
+USERID=$(id -u)
  
-if [ $USER -ne 0]
+if [ $USERID -ne 0]
 then
   echo "your'e not a super user"
   exit 1
